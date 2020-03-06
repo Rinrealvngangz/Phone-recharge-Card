@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "Namecard": "Card Viettel",
+    "image": "../image/viettel.jpg",
+    "price": "50",
+    "description": "VietTel card with face value of 50,000 issued by military telecommunications joint stock company. Customers in Vietnam can use domestic ATM cards (registered with Internet banking) or Visa, Master credit cards to buy Viettel cards. overseas Viettel can buy Viettel cards with Paypal, Visa and MasterCard"
+  },
+  {
+    "id": 1,
+    "Namecard": "Card VinaPhone",
+    "image": "../image/vinaphone.jpg",
+    "price": "50",
+    "description": "VinaPhone and Walt Disney join hands to bring a magical world to consumers in Vietnam through co-branded product lines."
+  },
+
+  {
+    "id": 2,
+    "Namecard": "Card MobiPhone",
+    "image": "../image/mobi.jpg",
+    "price": "50",
+    "description": "The card series and Code are delivered directly in electronic form on gamecardsvn.com website, in the Transaction History section of the customer's account."
+  }
+]

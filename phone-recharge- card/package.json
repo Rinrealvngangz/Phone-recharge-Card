@@ -1,0 +1,17 @@
+{
+  "name": "phone-recharge-card",
+  "version": "1.0.0",
+  "description": "node-webserver",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon indexjs"
+  },
+  "author": "Rinrealvngangz",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

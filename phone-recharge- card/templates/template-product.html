@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <title>Product</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+      html {
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+      }
+      body {
+        background-color: #70a1ff;
+      }
+      .box-product {
+        border: 0px solid;
+        margin: 20px auto;
+        height: 350px;
+        background-color: rgba(255, 204, 204, 1);
+        width: 50%;
+        border-radius: 50px;
+      }
+      h1 {
+        text-align: center;
+        color: black;
+      }
+      .price {
+        font-size: 30px;
+        padding: 0 auto;
+        float: left;
+        margin-left: 100px;
+        border-bottom: 2px solid white;
+      }
+      .description {
+        border-bottom: 2px solid #333333;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+      ion-icon.price-icon {
+        font-size: 20px;
+      }
+      .buy {
+        float: right;
+        margin-right: 150px;
+        border: 1px solid #333333;
+        padding: 5px;
+        border-color: white;
+      }
+      .buy:hover {
+        border-color: black;
+        transition: border-color 1s;
+        background-color: white;
+      }
+      ion-icon.icon-buy {
+        font-size: 40px;
+      }
+      .arrow-back {
+        font-size: 40px;
+        margin-left: 120px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="product">
+      <a href="/overview"
+        ><ion-icon
+          class="arrow-back"
+          name="arrow-back-circle-outline"
+        ></ion-icon
+      ></a>
+      <div class="box-product">
+        <h1>{%NAMECARD%}</h1>
+        <div class="description">
+          {%DESCRIPTION%}
+        </div>
+        <div class="price">
+          <h4>
+            {%PRICE%}K
+            <ion-icon class="price-icon" name="pricetags-outline"></ion-icon>
+          </h4>
+        </div>
+        <div class="buy">
+          <ion-icon class="icon-buy" name="cart-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
